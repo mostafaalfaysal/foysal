@@ -36,7 +36,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>In my little journey of web development. I completed some projects like management systems with PHP-Laravel, Chat App & Personal blog.</p>
+                <p>In my little journey of web development. I completed some projects like management systems using PHP-Laravel, Chat App & Personal blog.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
