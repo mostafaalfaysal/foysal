@@ -19,6 +19,7 @@ export const Projects = () => {
       title: "Saji Afroz- Personal Blog",
       description: "Personal Blog site",
       imgUrl: projImg2,
+      proUrl: 'https://sajiafroz.blogspot.com/'
     },
     {
       title: "Kotha",
