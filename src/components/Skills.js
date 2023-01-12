@@ -1,6 +1,10 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import php from "../assets/img/php.png";
+import laravel from "../assets/img/laravel.png";
+import js from "../assets/img/js.png";
+import css from "../assets/img/css.png";
+import html from "../assets/img/html5.png";
+import vue from "../assets/img/html5.png";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -38,32 +42,26 @@ export const Skills = () => {
                         <p></p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>PHP-Laravel</h5>
+                                <img src={php} alt="Image" />
+
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>HTML-CSS</h5>
+                                <img src={laravel} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>ReactJs</h5>
+                                <img src={js} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>VueJs</h5>
+                                <img src={html} alt="Image" />
+
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Graphics Design</h5>
+                                <img src={css} alt="Image" />
+
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Motion Graphics</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Digital Marketing</h5>
+                                <img src={vue} alt="Image" />
+
                             </div>
                         </Carousel>
                     </div>
