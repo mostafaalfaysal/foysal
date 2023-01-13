@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/ban.png";
+import CV from "../assets/Resume of Mostafa AL Faysal.pdf";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -59,7 +60,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Mostafa AL Faysal,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer"]'><span className="wrap">{text}</span></span></h1>
                   <p>A Back-End Web Developer passionate about creating dynamic applications and experiences on the web. I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!</p>
-                <button onClick={() => console.log('#connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <a href={CV}><button onClick={() => console.log('#connect')}>Resume<ArrowRightCircle size={25} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>
