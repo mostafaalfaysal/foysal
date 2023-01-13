@@ -14,6 +14,7 @@ export const Projects = () => {
       title: "Bachmess",
       description: "Mess Management System",
       imgUrl: projImg1,
+      proUrl: 'https://github.com/mostafaalfaysal/bachmess'
     },
     {
       title: "Saji Afroz- Personal Blog",

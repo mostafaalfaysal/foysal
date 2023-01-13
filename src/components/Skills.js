@@ -3,7 +3,7 @@ import laravel from "../assets/img/laravel.png";
 import js from "../assets/img/js.png";
 import css from "../assets/img/css.png";
 import html from "../assets/img/html5.png";
-import vue from "../assets/img/html5.png";
+import vue from "../assets/img/vue.png";
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
